@@ -2,8 +2,6 @@ var gulp = global.gulp = global.gulp || require("gulp");
 var fs = require("fs");
 var shelljs = (global.shelljs = global.shelljs || require("shelljs"));
 
-require('@syncfusion/ej2-showcase-helper');
-
 gulp.task("build", function(done) {
     var buildPath = ['Profile', 'Activities', 'Diet', 'Fasting'];
     for (var i = 0; i < buildPath.length; i++) {
