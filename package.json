@@ -24,8 +24,8 @@
     "@syncfusion/ej2-react-navigations": "*",
     "@syncfusion/ej2-react-popups": "*",
     "file-loader": "^6.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "gulp": "^4.0.2",
     "shelljs": "^0.8.5"
   },

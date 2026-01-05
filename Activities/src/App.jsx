@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import Activities from "./Activities";
 
 import "./index.css";
@@ -7,4 +7,6 @@ import "./index.css";
 const App = () => (
     <Activities></Activities>
 );
-ReactDOM.render(<App />, document.getElementById("app"));
+
+const root = createRoot(document.getElementById("app"));
+root.render(<App />);

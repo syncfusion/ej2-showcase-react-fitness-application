@@ -36,7 +36,7 @@
     "@syncfusion/ej2-react-circulargauge": "*",
     "@syncfusion/ej2-react-lineargauge": "*",
     "@syncfusion/ej2-react-popups": "*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   }
 }

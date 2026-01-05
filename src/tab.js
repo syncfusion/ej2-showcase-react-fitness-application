@@ -2886,14 +2886,14 @@ function Tab() {
     function profileDialogBtnClick() {
         let findlink = document.getElementById("appcssid");
         if (currentTheme === 'Light') {
-            findlink.href = "https://cdn.syncfusion.com/ej2/20.2.45/tailwind.css";
+            findlink.href = "https://cdn.syncfusion.com/ej2/32.1.19/tailwind.css";
             if (document.body.classList.contains('e-dark')) {
                 document.body.classList.remove('e-dark');
             }
             theme = 'Tailwind';
             weightGaugeBackground = '#FFF7EC';
         } else if (currentTheme === 'Dark') {
-            findlink.href = "https://cdn.syncfusion.com/ej2/20.2.45/tailwind-dark.css";
+            findlink.href = "https://cdn.syncfusion.com/ej2/32.1.19/tailwind-dark.css";
             if (!document.body.classList.contains('e-dark')) {
                 document.body.classList.add('e-dark');
             }
