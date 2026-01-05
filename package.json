@@ -12,9 +12,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@syncfusion/ej2-showcase-helper": "*",
     "@babel/runtime": "^7.13.10",
-    "@syncfusion/ej2-layouts": "*",
     "@syncfusion/ej2-react-buttons": "*",
     "@syncfusion/ej2-react-calendars": "*",
     "@syncfusion/ej2-react-circulargauge": "*",
